@@ -11,3 +11,6 @@ benchmark :
 	gcc  src/benchmark.c src/mymalloc.c -o benchmark 
 	./benchmark
 	rm benchmark 
+
+visualize :
+	python3 ploting.py 
